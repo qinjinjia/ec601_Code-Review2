@@ -285,7 +285,7 @@ N/A
 ### 4. Non Functional requirements
 #### 4.1 Maintainability(Supportability) 
 The **Readability** of the code is good. The team uses **‘camelCode’ nameing convention**, which makes name of variables be meaningful.
-The project is still under development :construction:, therefore, **"Testability", "Debuggability", "Configurability"** of the project are not reviewed.
+The project is still under development :construction:, there is **no .apk file in the repository**, therefore, **"Testability", "Debuggability", "Configurability"** of the project are not reviewed. Unit test should not start until the project finished.
 
 
 #### 4.2 Reusability
