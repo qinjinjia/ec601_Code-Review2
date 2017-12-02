@@ -21,9 +21,9 @@
 ## Overall
  :new_moon_with_face: This is an exciting project **[Go & Meet](https://github.com/kev5/Go-Meet)**. The project is essentially a **social/recreational application** which gives information of all the events  (public/private) happening in the local vicinity of the user on a real-time basis.
  
- :new_moon: The Github Repository of the Project **[Go & Meet](https://github.com/kev5/Go-Meet)** is abundant and **there is a ReadMe file in the repository, which is perfect**.
+ :new_moon: The Github Repository of the Project **[Go & Meet](https://github.com/kev5/Go-Meet)** becomes more abundant. There are some new files:file_folder: are added into the repository. 
  
- :waxing_crescent_moon: However, there are many files in the Repository and **GitHub file structure and directory structure is not clearly understandable**. It seems that it is because the project is still under development :construction:. 
+ :waxing_crescent_moon: **There is a ReadMe file in the repository, which is perfect**. However, there are many files in the Repository and **GitHub file structure and directory structure is not clearly understandable**. It seems that it is because the project is still under development :construction:. 
 
  :first_quarter_moon: There are ten java files I reviewed:
           
