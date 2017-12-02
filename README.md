@@ -319,7 +319,7 @@ The developers considered the security of the software, **Authentication is addd
 ```               
 
 #### 4.6 Performance
-The project is still under development :construction:, therefore, **Performance** of the project is not reviewed.
+The project is still under development :construction:, there is **no .apk file in the repository**, therefore, **Performance** of the project is not reviewed.
 
 #### 4.7 Scalability
 The **firebase realtime database** is utilized as the backend of the porject, which can be found in [writeToFireBase.java](https://github.com/kev5/Go-Meet/blob/master/writeToFireBase.java).  **The firebase realtime database** supports a large user base/data. Therefore, the scalability of the project is good.
@@ -349,7 +349,7 @@ Owing to the developers' good design, each single class or function has one resp
 The class hierarchy does not exist in the project. Therefore, the project does not violate the **[Liskov substitutability principle]**(https://en.wikipedia.org/wiki/Liskov_substitution_principle)
 
 #### 5.4 Interface segregation:
-The project is still under development :construction:, therefore, **Interface segregation** of the project is not reviewed.
+The project is still under development :construction:, there is **no .apk file in the repository**, therefore, **Interface segregation** of the project is not reviewed.
 
 #### 5.5 Dependency Injection:
 The project utilizes **firebase** to achieve authentication. Dependency injection is not applicable to the project.
