@@ -42,21 +42,24 @@
  
  :waning_gibbous_moon: There are **five java files** and **four python files** I reviewed in **Code Review 2**:
  
-  |File Name |Link |
- |--|--
- |ChooseLoginRegistrationActivity.java|:link: [ChooseLoginRegistrationActivity.java](https://github.com/kev5/Go-Meet/blob/master/ChooseLoginRegistrationActivity.java)|
- |Community.java|:link: [Community.java](https://github.com/kev5/Go-Meet/blob/master/Community.java)|
- |Database.java|:link: [Database.java](https://github.com/kev5/Go-Meet/blob/master/Database.java)|
- |LoginActivity.java|:link: [LoginActivity.java](https://github.com/kev5/Go-Meet/blob/master/LoginActivity.java)|
- |MainActivity.java|:link: [MainActivity.java](https://github.com/kev5/Go-Meet/blob/master/MainActivity.java)|
- |Post.java|:link: [Post.java](https://github.com/kev5/Go-Meet/blob/master/Post.java)|
- |RegistrationActivity.java|:link: [RegistrationActivity.java](https://github.com/kev5/Go-Meet/blob/master/RegistrationActivity.java)|
- |User.java|:link: [User.java](https://github.com/kev5/Go-Meet/blob/master/User.java)|
- |readFromFireBase.java|:link: [readFromFireBase.java](https://github.com/kev5/Go-Meet/blob/master/readFromFireBase.java)|
+ |File Name |Link |Available in Code Review 1|
+ |--|--|--
+ |ChooseLoginRegistrationActivity.java|:link: [ChooseLoginRegistrationActivity.java](https://github.com/kev5/Go-Meet/blob/master/ChooseLoginRegistrationActivity.java)|Revised since Code Review 1|
+ |Database.java|:link: [Database.java](https://github.com/kev5/Go-Meet/blob/master/Database.java)|Revised since Code Review 1|
+ |LoginActivity.java|:link: [LoginActivity.java](https://github.com/kev5/Go-Meet/blob/master/LoginActivity.java)|Revised since Code Review 1|
+ |MainActivity.java|:link: [MainActivity.java](https://github.com/kev5/Go-Meet/blob/master/MainActivity.java)|Revised since Code Review 1|
+ |RegistrationActivity.java|:link: [RegistrationActivity.java](https://github.com/kev5/Go-Meet/blob/master/RegistrationActivity.java)|Revised since Code Review 1|
+ |boston_crime.py|:link: [boston_crime.py](https://github.com/kev5/Go-Meet/blob/master/boston_crime.py)|New Added|
+ |csv2json.py|:link: [csv2json.py](https://github.com/kev5/Go-Meet/blob/master/csv2json.py)|New Added|
+ |wikidata_get.py|:link: [wikidata_get.py](https://github.com/kev5/Go-Meet/blob/master/wikidata_get.py)|New Added|
+ |zipcodeData.py|:link: [zipcodeData.py](https://github.com/kev5/Go-Meet/blob/master/zipcodeData.py)|New Added|
+ |Community.java|:link: [~~Community.java~~](https://github.com/kev5/Go-Meet/blob/master/Community.java)|Removed before Code Review 2|
+ |Post.java|:link: [~~Post.java~~](https://github.com/kev5/Go-Meet/blob/master/Post.java)|Removed before Code Review 2|
+ |User.java|:link: [~~User.java~~](https://github.com/kev5/Go-Meet/blob/master/User.java)|Removed before Code Review 2|
+ |readFromFireBase.java|:link: [~~readFromFireBase.java~~](https://github.com/kev5/Go-Meet/blob/master/readFromFireBase.java)|Removed before Code Review 2|
  
  
  
-          
 ## Code Review
 
 ### 1. Code Formatiing
