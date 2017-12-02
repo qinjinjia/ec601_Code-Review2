@@ -6,6 +6,8 @@
   
   The page for **EC601(Fall 2017) A1 Code Review 1 Assignment** can be found [HERE](https://github.com/qinjinjia/ec601_Code-Review) :loop:
   
+  The **Code Review 2** follows the same criteria as the [Code Review 1](https://github.com/qinjinjia/ec601_Code-Review) . 
+  
   |The project reviewed| **[@github.com/kev5/Go-Meet](https://github.com/kev5/Go-Meet)**
   |--|--
   |**The Reviewer**| :boy: **Qinjin Jia** qjia@bu.edu   :point_right:[@github/qinjinjia](https://github.com/qinjinjia)
