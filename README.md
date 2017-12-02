@@ -16,7 +16,7 @@
 
   :sun_with_face: Summary of the Code Review Criteria :link: [Code Review Criteria.pdf](https://github.com/qinjinjia/ec601_Code-Review/blob/master/Code%20Review%20Criteria.pdf) 
  
- :full_moon_with_face: Code Review auxiliary tool: [jslint](http://www.jslint.com)
+ :full_moon_with_face: Code Review auxiliary tool: [jslint](http://www.jslint.com), [pep8](https://www.python.org/dev/peps/pep-0008/), [pylint](https://www.pylint.org)
  
 ## Overall
  :new_moon_with_face: This is an exciting project **[Go & Meet](https://github.com/kev5/Go-Meet)**. The project is essentially a **social/recreational application** which gives information of all the events  (public/private) happening in the local vicinity of the user on a real-time basis.
@@ -59,13 +59,21 @@
  |~~readFromFireBase.java~~|:link: [~~readFromFireBase.java~~](https://github.com/kev5/Go-Meet/blob/master/readFromFireBase.java)|Removed before Code Review 2|
  
  
- 
-## Code Review
+## Code Review2
 
 ### 1. Code Formatiing
 
+All python files are assessed by the Code Review auxiliary tool: [pep8](https://www.python.org/dev/peps/pep-0008/) and [pylint](https://www.pylint.org) for an overview of the code quality.
+
+ |Python File Name |Link |pep8 check|pylint check|Comments
+ |--|--|--|--
+ |boston_crime.py|:link: [boston_crime.py](https://github.com/kev5/Go-Meet/blob/master/boston_crime.py)|New Added| | |
+ |csv2json.py|:link: [csv2json.py](https://github.com/kev5/Go-Meet/blob/master/csv2json.py)|New Added| | |
+ |wikidata_get.py|:link: [wikidata_get.py](https://github.com/kev5/Go-Meet/blob/master/wikidata_get.py)|New Added|  | |
+ |zipcodeData.py|:link: [zipcodeData.py](https://github.com/kev5/Go-Meet/blob/master/zipcodeData.py)|New Added| | |
+
 #### 1.1 Alignments
-For all java files revised since Code Review 1 and all new added python files, the uses of alignments are perfect. The code block starting point and ending point are easily identifiable.
+For all java files revised after Code Review 1 and all new added python files, the uses of alignments are perfect. The code block starting point and ending point are **easily identifiable**.
 
 #### 1.2 Naming Conventions
 The **‘camelCode’** nameing convention is used in the project. The developers utilize capital letters to indicate the start of a word, which makes name of variables be **meaningful**.
