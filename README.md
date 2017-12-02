@@ -65,8 +65,8 @@
 
 All python files are assessed by the Code Review auxiliary tool: [pep8](https://www.python.org/dev/peps/pep-0008/) and [pylint](https://www.pylint.org) for an overview of the code quality.
 
- |Python File Name |Link |pep8 check|pylint check|Comments
- |--|--|--|--
+ |Python File Name |Link |pep8 check |pylint check |Comments
+ |--|--|--|--|--
  |boston_crime.py|:link: [boston_crime.py](https://github.com/kev5/Go-Meet/blob/master/boston_crime.py)|New Added| | |
  |csv2json.py|:link: [csv2json.py](https://github.com/kev5/Go-Meet/blob/master/csv2json.py)|New Added| | |
  |wikidata_get.py|:link: [wikidata_get.py](https://github.com/kev5/Go-Meet/blob/master/wikidata_get.py)|New Added|  | |
