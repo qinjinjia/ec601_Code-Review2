@@ -166,7 +166,7 @@ C: 58, 0: Invalid constant name "crime_stat" (invalid-name)
 -----------------------------------
 Your code has been rated at 4.59/10
 ```
-According to the Code Review auxiliary tool Pep8 and Pylint, Overall Code Quality(Formatting) is OK.
+**According to the Code Review auxiliary tool Pep8 and Pylint, Overall Code Quality(Formatting) is OK.**
 
 #### 1.1 Alignments
 For all java files revised after Code Review 1 and all new added python files, the uses of alignments are perfect. The code block starting point and ending point are **easily identifiable**.
@@ -178,9 +178,8 @@ The **‘camelCode’** nameing convention is used in the project. The developer
 :thumbsup:Perfect! The code can fit in the standard 14-inch laptop screen.
 
 #### 1.4 Commented Code
-It seems that it is because the project is still under development :construction:. There are some commented code blocks in the project.
 
-For instance, the commented code in [Database.java](https://github.com/kev5/Go-Meet/blob/master/Database.java) should be delected (Or removed from the master branch).   
+The commented code in [Database.java](https://github.com/kev5/Go-Meet/blob/master/Database.java) has been deleted (Or removed from the master branch) before Code Review 2.   
 ```
 public class Database {
     public FirebaseDatabase mDatabase;
@@ -189,7 +188,7 @@ public class Database {
     public Database(){
     }
 ```
-and the commented code in [MainActivity.java](https://github.com/kev5/Go-Meet/blob/master/MainActivity.java) should be removed.
+and the commented code in [MainActivity.java](https://github.com/kev5/Go-Meet/blob/master/MainActivity.java) has been removed as well.
 ```
         al.add(post01.getPostText());
 //        al.add(post02.getPostText());        <-This commented code should be removed
@@ -197,6 +196,33 @@ and the commented code in [MainActivity.java](https://github.com/kev5/Go-Meet/bl
 //        al.add(post04.getPostText());
 //        al.add(post05.getPostText());
 //        al.add(post06.getPostText());
+```
+However, it seems that it is because the project is still under development :construction:. There are still some commented code blocks in the project.
+The commented code in [MainActivity.java](https://github.com/kev5/Go-Meet/blob/master/MainActivity.java)
+```
+//    public void postEvent(View view) {
+//        view = (LayoutInflater.from(MainActivity.this)).inflate(R.layout.activity_post, null);
+//        AlertDialog.Builder alertBuilder = new AlertDialog.Builder(MainActivity.this);
+//        alertBuilder.setView(view);
+//
+//        Dialog dialog = alertBuilder.create();
+//        dialog.show();
+//
+//        alertBuilder.setCancelable(true)
+//                .setPositiveButton("GO", new DialogInterface.OnClickListener(){
+//                    //private EditText mEventName;
+//
+//                    @Override
+//                    public void onClick(DialogInterface dialog,int which){
+//                        mEventName = (EditText) findViewById(R.id.event_name);
+//                        final String eventName = mEventName.getText().toString();
+//                        final String userId = mAuth.getCurrentUser().getUid();
+//                        DatabaseReference postDb = FirebaseDatabase.getInstance().getReference().child("Users").child(userSex).child(userId).child("dd");
+//                        postDb.setValue(eventName);
+//
+//                    }
+//                });
+//    }
 ```
 
 </br>
