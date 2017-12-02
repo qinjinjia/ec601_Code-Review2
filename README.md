@@ -72,7 +72,7 @@ All python files are assessed by the Code Review auxiliary tool: [pep8](https://
  |wikidata_get.py|:link: [wikidata_get.py](https://github.com/kev5/Go-Meet/blob/master/wikidata_get.py)|9 Problems|-3.16/10 |
  |zipcodeData.py|:link: [zipcodeData.py](https://github.com/kev5/Go-Meet/blob/master/zipcodeData.py)|5 Problem|3.16/10 |
  
-PEP8 Example: PEP8 check for boston_crime.py
+PEP8 Example: **PEP8 check for boston_crime.py**
 ```
 boston_crime.py:9:43: E251 unexpected spaces around keyword / parameter equals
 boston_crime.py:9:45: E251 unexpected spaces around keyword / parameter equals
@@ -101,7 +101,7 @@ boston_crime.py:92:62: E251 unexpected spaces around keyword / parameter equals
 boston_crime.py:92:76: W292 no newline at end of file
 ```
 
-Pylint Example: Pylint check for boston_crime.py
+Pylint Example: **Pylint check for boston_crime.py**
 ```
 ************* Module boston_crime
 C:  9, 0: No space allowed around keyword argument assignment
