@@ -4,7 +4,7 @@
   
   This is the page for **EC601(Fall 2017) A1 Code Review 2 Assignment** :loop:
   
-  The page for **EC601(Fall 2017) A1 Code Review 1 Assignment** can be found [here](https://github.com/qinjinjia/ec601_Code-Review) :loop:
+  The page for **EC601(Fall 2017) A1 Code Review 1 Assignment** can be found [HERE](https://github.com/qinjinjia/ec601_Code-Review) :loop:
   
   |The project reviewed| **[@github.com/kev5/Go-Meet](https://github.com/kev5/Go-Meet)**
   |--|--
