@@ -253,7 +253,7 @@ This might be solved by utilizing the enumeration.
         mWrite.writePosts("5",post05);
         mWrite.writePosts("6",post06);
 ```
-**This issue has been revised before the Code Review 2.** :thumbsup: **Perfect!**
+This issue has been revised before the Code Review 2.** :thumbsup: Perfect!
 
 #### 3.3 Comments
 There are some to-do comments mention pending tasks, which is good. For instance, in [User.java](https://github.com/kev5/Go-Meet/blob/master/User.java)
