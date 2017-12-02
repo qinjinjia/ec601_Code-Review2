@@ -166,7 +166,7 @@ C: 58, 0: Invalid constant name "crime_stat" (invalid-name)
 -----------------------------------
 Your code has been rated at 4.59/10
 ```
-**According to the Code Review auxiliary tool Pep8 and Pylint, Overall Code Quality(Formatting) is OK.**
+According to the **Code Review auxiliary tool Pep8 and Pylint, Overall Code Quality(Formatting) is OK.**
 
 #### 1.1 Alignments
 For all java files revised after Code Review 1 and all new added python files, the uses of alignments are perfect. The code block starting point and ending point are **easily identifiable**.
