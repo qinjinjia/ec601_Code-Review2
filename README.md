@@ -25,7 +25,7 @@
  
  :waxing_crescent_moon: **There is a ReadMe file in the repository, which is perfect**. However, there are many files in the Repository and **GitHub file structure and directory structure is not clearly understandable**. It seems that it is because the project is still under development :construction:. 
 
- :first_quarter_moon: There are ten java files I reviewed:
+ :first_quarter_moon: There are ten java files I reviewed in **Code Review 1**:
           
  |File Name |Link |
  |--|--
@@ -39,6 +39,23 @@
  |User.java|:link: [User.java](https://github.com/kev5/Go-Meet/blob/master/User.java)|
  |readFromFireBase.java|:link: [readFromFireBase.java](https://github.com/kev5/Go-Meet/blob/master/readFromFireBase.java)|
  |writeToFireBase.java|:link: [writeToFireBase.java](https://github.com/kev5/Go-Meet/blob/master/writeToFireBase.java)|
+ 
+ :waning_gibbous_moon: There are **five java files** and **four python files** I reviewed in **Code Review 2**:
+ 
+  |File Name |Link |
+ |--|--
+ |ChooseLoginRegistrationActivity.java|:link: [ChooseLoginRegistrationActivity.java](https://github.com/kev5/Go-Meet/blob/master/ChooseLoginRegistrationActivity.java)|
+ |Community.java|:link: [Community.java](https://github.com/kev5/Go-Meet/blob/master/Community.java)|
+ |Database.java|:link: [Database.java](https://github.com/kev5/Go-Meet/blob/master/Database.java)|
+ |LoginActivity.java|:link: [LoginActivity.java](https://github.com/kev5/Go-Meet/blob/master/LoginActivity.java)|
+ |MainActivity.java|:link: [MainActivity.java](https://github.com/kev5/Go-Meet/blob/master/MainActivity.java)|
+ |Post.java|:link: [Post.java](https://github.com/kev5/Go-Meet/blob/master/Post.java)|
+ |RegistrationActivity.java|:link: [RegistrationActivity.java](https://github.com/kev5/Go-Meet/blob/master/RegistrationActivity.java)|
+ |User.java|:link: [User.java](https://github.com/kev5/Go-Meet/blob/master/User.java)|
+ |readFromFireBase.java|:link: [readFromFireBase.java](https://github.com/kev5/Go-Meet/blob/master/readFromFireBase.java)|
+ 
+ 
+ 
           
 ## Code Review
 
