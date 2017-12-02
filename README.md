@@ -65,13 +65,107 @@
 
 All python files are assessed by the Code Review auxiliary tool: [pep8](https://www.python.org/dev/peps/pep-0008/) and [pylint](https://www.pylint.org) for an overview of the code quality.
 
- |Python File Name |Link |pep8 check |pylint check |Comments
- |--|--|--|--|--
- |boston_crime.py|:link: [boston_crime.py](https://github.com/kev5/Go-Meet/blob/master/boston_crime.py)|New Added| | |
- |csv2json.py|:link: [csv2json.py](https://github.com/kev5/Go-Meet/blob/master/csv2json.py)|New Added| | |
- |wikidata_get.py|:link: [wikidata_get.py](https://github.com/kev5/Go-Meet/blob/master/wikidata_get.py)|New Added|  | |
- |zipcodeData.py|:link: [zipcodeData.py](https://github.com/kev5/Go-Meet/blob/master/zipcodeData.py)|New Added| | |
+ |Python File Name |Link |pep8 check |pylint check |
+ |--|--|--|--
+ |boston_crime.py|:link: [boston_crime.py](https://github.com/kev5/Go-Meet/blob/master/boston_crime.py)|25 Problems|4.59/10 |
+ |csv2json.py|:link: [csv2json.py](https://github.com/kev5/Go-Meet/blob/master/csv2json.py)|7 Problems|3.75/10 |
+ |wikidata_get.py|:link: [wikidata_get.py](https://github.com/kev5/Go-Meet/blob/master/wikidata_get.py)|9 Problems|-3.16/10 |
+ |zipcodeData.py|:link: [zipcodeData.py](https://github.com/kev5/Go-Meet/blob/master/zipcodeData.py)|5 Problem|3.16/10 |
+ 
+PEP8 Example: PEP8 check for boston_crime.py
+```
+boston_crime.py:9:43: E251 unexpected spaces around keyword / parameter equals
+boston_crime.py:9:45: E251 unexpected spaces around keyword / parameter equals
+boston_crime.py:17:80: E501 line too long (96 > 79 characters)
+boston_crime.py:20:20: E261 at least two spaces before inline comment
+boston_crime.py:20:20: E262 inline comment should start with '# '
+boston_crime.py:25:1: E302 expected 2 blank lines, found 1
+boston_crime.py:30:12: E231 missing whitespace after ','
+boston_crime.py:32:13: E201 whitespace after '('
+boston_crime.py:32:31: E202 whitespace before ')'
+boston_crime.py:33:20: E221 multiple spaces before operator
+boston_crime.py:36:1: W293 blank line contains whitespace
+boston_crime.py:47:21: W291 trailing whitespace
+boston_crime.py:48:38: E231 missing whitespace after ','
+boston_crime.py:69:12: E231 missing whitespace after ','
+boston_crime.py:72:14: W291 trailing whitespace
+boston_crime.py:76:70: W291 trailing whitespace
+boston_crime.py:79:14: W291 trailing whitespace
+boston_crime.py:86:80: E501 line too long (259 > 79 characters)
+boston_crime.py:88:1: W293 blank line contains whitespace
+boston_crime.py:89:1: W293 blank line contains whitespace
+boston_crime.py:91:43: E251 unexpected spaces around keyword / parameter equals
+boston_crime.py:91:45: E251 unexpected spaces around keyword / parameter equals
+boston_crime.py:92:60: E251 unexpected spaces around keyword / parameter equals
+boston_crime.py:92:62: E251 unexpected spaces around keyword / parameter equals
+boston_crime.py:92:76: W292 no newline at end of file
+```
 
+Pylint Example: Pylint check for boston_crime.py
+```
+************* Module boston_crime
+C:  9, 0: No space allowed around keyword argument assignment
+f3 = open("zip_pos_us.csv", 'rt', encoding = 'latin-1')
+                                           ^ (bad-whitespace)
+C: 30, 0: Exactly one space required after comma
+    for key,value in zip_boston_pos.items():
+           ^ (bad-whitespace)
+C: 32, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C: 32, 0: No space allowed after bracket
+        if ( distance < lenmin ):
+           ^ (bad-whitespace)
+C: 32, 0: No space allowed before bracket
+        if ( distance < lenmin ):
+                               ^ (bad-whitespace)
+C: 33, 0: Exactly one space required before assignment
+            zipcode  = key
+                     ^ (bad-whitespace)
+C: 36, 0: Trailing whitespace (trailing-whitespace)
+C: 47, 0: Trailing whitespace (trailing-whitespace)
+C: 48, 0: Unnecessary parens after 'in' keyword (superfluous-parens)
+C: 48, 0: Exactly one space required after comma
+        for key, value in (zip(header,row)):
+                                     ^ (bad-whitespace)
+W: 49, 0: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+C: 69, 0: Exactly one space required after comma
+    for key,value in d.items():
+           ^ (bad-whitespace)
+C: 72, 0: Trailing whitespace (trailing-whitespace)
+C: 76, 0: Trailing whitespace (trailing-whitespace)
+C: 79, 0: Trailing whitespace (trailing-whitespace)
+C: 86, 0: Line too long (259/100) (line-too-long)
+C: 88, 0: Trailing whitespace (trailing-whitespace)
+C: 89, 0: Trailing whitespace (trailing-whitespace)
+C: 91, 0: No space allowed around keyword argument assignment
+json.dumps(dict(boston_crime_data_from2015 = data))
+                                           ^ (bad-whitespace)
+C: 92, 0: Final newline missing (missing-final-newline)
+C: 92, 0: No space allowed around keyword argument assignment
+print(json.dumps(dict(boston_crime_data_from2015_statistics = crime_stat)))
+                                                            ^ (bad-whitespace)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Invalid constant name "f1" (invalid-name)
+C:  6, 0: Invalid constant name "reader1" (invalid-name)
+C:  7, 0: Invalid constant name "f2" (invalid-name)
+C:  8, 0: Invalid constant name "reader2" (invalid-name)
+C:  9, 0: Invalid constant name "f3" (invalid-name)
+C: 10, 0: Invalid constant name "reader3" (invalid-name)
+C: 12, 0: Invalid constant name "zip_boston" (invalid-name)
+C: 13, 0: Invalid constant name "zip_boston_pos" (invalid-name)
+W: 29, 4: Redefining name 'zipcode' from outer scope (line 39) (redefined-outer-name)
+W: 30, 8: Redefining name 'key' from outer scope (line 48) (redefined-outer-name)
+W: 30,12: Redefining name 'value' from outer scope (line 48) (redefined-outer-name)
+C: 25, 0: Missing function docstring (missing-docstring)
+C: 37, 0: Invalid constant name "data" (invalid-name)
+C: 38, 0: Invalid constant name "header" (invalid-name)
+C: 39, 0: Invalid constant name "zipcode" (invalid-name)
+C: 42, 7: Do not use `len(SEQUENCE)` as condition value (len-as-condition)
+W: 46, 8: No exception type(s) specified (bare-except)
+C: 58, 0: Invalid constant name "crime_stat" (invalid-name)
+
+-----------------------------------
+Your code has been rated at 4.59/10
+```
 #### 1.1 Alignments
 For all java files revised after Code Review 1 and all new added python files, the uses of alignments are perfect. The code block starting point and ending point are **easily identifiable**.
 
