@@ -198,7 +198,7 @@ and the commented code in [MainActivity.java](https://github.com/kev5/Go-Meet/bl
 //        al.add(post06.getPostText());
 ```
 However, it seems that it is because the project is still under development :construction:. There are still some commented code blocks in the project.
-The commented code in [MainActivity.java](https://github.com/kev5/Go-Meet/blob/master/MainActivity.java)
+The commented code in [MainActivity.java](https://github.com/kev5/Go-Meet/blob/master/MainActivity.java), for instance.
 ```
 //    public void postEvent(View view) {
 //        view = (LayoutInflater.from(MainActivity.this)).inflate(R.layout.activity_post, null);
@@ -253,6 +253,8 @@ This might be solved by utilizing the enumeration.
         mWrite.writePosts("5",post05);
         mWrite.writePosts("6",post06);
 ```
+**This issue has been revised before the Code Review 2.** :thumbsup: **Perfect!**
+
 #### 3.3 Comments
 There are some to-do comments mention pending tasks, which is good. For instance, in [User.java](https://github.com/kev5/Go-Meet/blob/master/User.java)
 ```
