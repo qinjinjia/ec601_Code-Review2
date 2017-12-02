@@ -263,7 +263,16 @@ There are some to-do comments mention pending tasks, which is good. For instance
     }
 ```
 
-However, the developers could add some comments to help others understand the code.
+However, this kind of comments(i.e. comments to help developer understand the tutorial) should be deleted (or removed from the master branch).
+```
+    public void onLeftCardExit(Object dataObject) {
+        //Do something on the left!
+        //You also have access to the original object.
+        //If you want to use it just cast it (String) dataObject
+        Toast.makeText(MainActivity.this, "NOPE!", Toast.LENGTH_SHORT).show();
+    }
+```
+Additionally, the developers could add some comments to help others understand the code.
 
 #### 3.4 Mul if/else blocks
 :thumbsup: Good, there is no multiple if/else block in the project.
