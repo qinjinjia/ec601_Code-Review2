@@ -376,7 +376,7 @@ The project utilizes **firebase** to achieve authentication. Dependency injectio
 
 :last_quarter_moon: The developers could add **some comments to help others understand the code**.
 
-:waning_crescent_moon: There is **no .apk file in the repository**, therefore, **"Testability", "Debuggability", "Configurability"** of the project cannot not reviewed. Unit test should not start until the project finished.**.
+:waning_crescent_moon: There is **no .apk file in the repository**, therefore, **"Testability", "Debuggability", "Configurability"** of the project cannot not reviewed. It is also a good practice to do Unit Test along the code development. **Unit test should not start until the project finished.**.
 
 
 :sun_with_face: **Finally, Good Luck for your project :D)**:exclamation:
