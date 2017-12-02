@@ -285,7 +285,7 @@ N/A
 ### 4. Non Functional requirements
 #### 4.1 Maintainability(Supportability) 
 The **Readability** of the code is good. The team uses **‘camelCode’ nameing convention**, which makes name of variables be meaningful.
-The project is still under development :construction:, there is **no .apk file in the repository**, therefore, **"Testability", "Debuggability", "Configurability"** of the project are not reviewed. Unit test should start before the project finishes.
+The project is still under development :construction:, there is **no .apk file in the repository**, therefore, **"Testability", "Debuggability", "Configurability"** of the project are not reviewed. Unit test should start before or during the project itself.
 
 
 #### 4.2 Reusability
@@ -376,7 +376,7 @@ The project utilizes **firebase** to achieve authentication. Dependency injectio
 
 :last_quarter_moon: The developers could add **some comments to help others understand the code**.
 
-:waning_crescent_moon: There is **no .apk file in the repository**, therefore, **"Testability", "Debuggability", "Configurability"** of the project cannot not reviewed. It is also a good practice to do Unit Test along the code development. **Unit test should start before the project finishes.**.
+:waning_crescent_moon: There is **no .apk file in the repository**, therefore, **"Testability", "Debuggability", "Configurability"** of the project cannot not reviewed. It is also a good practice to do Unit Test along the code development. **Unit test should start before or during the project itself**.
 
 
 :sun_with_face: **Finally, Good Luck for your project :D)**:exclamation:
