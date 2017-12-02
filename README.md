@@ -370,13 +370,13 @@ The project utilizes **firebase** to achieve authentication. Dependency injectio
 :waxing_gibbous_moon: The project obeys **Single Responsibility Principle(SRS)**, **Open Closed Principle** and **Liskov substitutability principle**. 
 
 ### Can be better:
-:full_moon: **GitHub file structure and directory structure is not clearly understandable**. It seems that it is because the project is still under development :construction:.
+:full_moon: **GitHub file structure and directory structure is still not clearly understandable**. It seems that it is because the project is still under development :construction:.
 
-:waning_gibbous_moon:There are some **commented code blocks** in the project. The commented code blocks could keep in other branch rather than the master branch.
+:waning_gibbous_moon:There are some **commented code blocks** in the project. The commented code blocks could keep in other branch rather than the master branch. Additionally, the comments that help developer understand the tutorial should be deleted (or removed from the master branch).
 
 :last_quarter_moon: The developers could add **some comments to help others understand the code**.
 
-:waning_crescent_moon: The java file :link: [MainActivity.java](https://github.com/kev5/Go-Meet/blob/master/MainActivity.java) contains **[magic number](https://en.wikipedia.org/wiki/Magic_number_(programming))**.
+:waning_crescent_moon: There is **no .apk file in the repository**, therefore, **"Testability", "Debuggability", "Configurability"** of the project cannot not reviewed. Unit test should not start until the project finished.**.
 
 
 :sun_with_face: **Finally, Good Luck for your project :D)**:exclamation:
