@@ -65,7 +65,7 @@
 ### 1. Code Formatiing
 
 #### 1.1 Alignments
-The uses of alignments are perfect. The code block starting point and ending point are easily identifiable.
+For all java files revised since Code Review 1 and all new added python files, the uses of alignments are perfect. The code block starting point and ending point are easily identifiable.
 
 #### 1.2 Naming Conventions
 The **‘camelCode’** nameing convention is used in the project. The developers utilize capital letters to indicate the start of a word, which makes name of variables be **meaningful**.
