@@ -355,10 +355,11 @@ The project is still under development :construction:, there is **no .apk file i
 The project utilizes **firebase** to achieve authentication. Dependency injection is not applicable to the project.
 
 ## Summary
-### Good Points: 
-:full_moon_with_face: The overall code quality is high, the design of the software is good. 
 
-:new_moon_with_face: The project has **proper code formatiing**，using **‘camelCode’ nameing convention** makes name of variables be **meaningful**.
+### Good Points: 
+:full_moon_with_face: The overall code quality is high, the design of the software is good. Many issues mentioned in [Code Review 1](https://github.com/qinjinjia/ec601_Code-Review) has been revised. Commented Code Problem, for instance. Thanks :tada:.
+
+:new_moon_with_face: The project has **proper code formatiing**，using **‘camelCode’ nameing convention** makes name of variables be **meaningful**. However, code formatting still can be improved according to the reports from the Code Review auxiliary tool: [jslint](http://www.jslint.com), [pep8](https://www.python.org/dev/peps/pep-0008/), [pylint](https://www.pylint.org). 
 
 :new_moon: The architecture of the project is nice.
 
