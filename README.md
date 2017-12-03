@@ -199,7 +199,7 @@ and the commented code in [MainActivity.java](https://github.com/kev5/Go-Meet/bl
 ```
 However, it seems that it is because the project is still under development :construction:. There are still some commented code blocks in the project.
 The commented code in [MainActivity.java](https://github.com/kev5/Go-Meet/blob/master/MainActivity.java), for instance.
-```
+```java
 //    public void postEvent(View view) {
 //        view = (LayoutInflater.from(MainActivity.this)).inflate(R.layout.activity_post, null);
 //        AlertDialog.Builder alertBuilder = new AlertDialog.Builder(MainActivity.this);
@@ -245,7 +245,7 @@ Therefore, the architecture of the project is nice.
 #### 3.2 Enumeration
 The java file :link: [MainActivity.java](https://github.com/kev5/Go-Meet/blob/master/MainActivity.java) contains **[magic number](https://en.wikipedia.org/wiki/Magic_number_(programming))**. It is difficult to understand what is the meaning of 1, 2, 3 etc here.
 This might be solved by utilizing the enumeration.
-```
+```java
         mWrite.writePosts("1",post01);
         mWrite.writePosts("2",post02);
         mWrite.writePosts("3",post03);
@@ -257,14 +257,14 @@ This issue has been revised before the Code Review 2. :thumbsup: Perfect!
 
 #### 3.3 Comments
 There are some to-do comments mention pending tasks, which is good. For instance, in [User.java](https://github.com/kev5/Go-Meet/blob/master/User.java)
-```
+```java
     public User() {
         // Default constructor required for calls to DataSnapshot.getValue(User.class)
     }
 ```
 
 However, this kind of comments(i.e. comments to help developer understand the tutorial) should be deleted (or removed from the master branch).
-```
+```java
     public void onLeftCardExit(Object dataObject) {
         //Do something on the left!
         //You also have access to the original object.
@@ -290,7 +290,7 @@ The project is still under development :construction:, there is **no .apk file i
 
 #### 4.2 Reusability
 Some places in the code violate [DRY (Do not Repeat Yourself) principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).Duplicated code is a risk to safety. If you have identical or very similar code in two places, then the fundamental risk is that there’s a bug in both copies, and some maintainer fixes the bug in one place but not the other. For instance, **DRY code** in :link: [writeToFireBase.java](https://github.com/kev5/Go-Meet/blob/master/writeToFireBase.java)
-```
+```java
     public void likePost(String postID){
         DatabaseReference commentPostRef = this.writepostRef.child(postID);
         commentPostRef.child("likes").push().setValue(this.user.getUid());
@@ -312,7 +312,7 @@ The project utilizes classes and functions, which makes the code has **Good Exte
 
 #### 4.5 Security
 The developers considered the security of the software, **Authentication is addded by utilizing the firebase** in [LoginActivity.java](https://github.com/kev5/Go-Meet/blob/master/LoginActivity.java).
-```
+```java
         public void onClick(View v) {
                 final String email = mEmail.getText().toString();
                 final String password = mPassword.getText().toString();
@@ -323,7 +323,7 @@ The project is still under development :construction:, there is **no .apk file i
 
 #### 4.7 Scalability
 The **firebase realtime database** is utilized as the backend of the porject, which can be found in [writeToFireBase.java](https://github.com/kev5/Go-Meet/blob/master/writeToFireBase.java).  **The firebase realtime database** supports a large user base/data. Therefore, the scalability of the project is good.
-```
+```java
     public writeToFireBase(){
         this.user = FirebaseAuth.getInstance().getCurrentUser();
         this.database = FirebaseDatabase.getInstance();
