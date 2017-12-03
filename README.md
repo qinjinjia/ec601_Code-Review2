@@ -180,7 +180,7 @@ The **‘camelCode’** nameing convention is used in the project. The developer
 #### 1.4 Commented Code
 
 The commented code in [Database.java](https://github.com/kev5/Go-Meet/blob/master/Database.java) has been deleted (Or removed from the master branch) before Code Review 2.   
-```
+```java
 public class Database {
     public FirebaseDatabase mDatabase;
     public DatabaseReference myRef;
@@ -189,7 +189,7 @@ public class Database {
     }
 ```
 and the commented code in [MainActivity.java](https://github.com/kev5/Go-Meet/blob/master/MainActivity.java) has been removed as well.
-```
+```java
         al.add(post01.getPostText());
 //        al.add(post02.getPostText());        <-This commented code should be removed
 //        al.add(post03.getPostText());
